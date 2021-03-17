@@ -56,10 +56,8 @@ if (name.length !== 0) {
 
             post(name, 'Gak mau', 'null', 'null')
         }
-    } else {
-        alert('Yaudah ga jadi');
     }
 } else {
     alert('Massa kamu ga punya nama sih');
-    window.reload();
+    location.reload();
 }
