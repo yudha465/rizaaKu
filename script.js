@@ -10,7 +10,7 @@ function post(name, talk, result, call_miss) {
             },
             url: 'post.php',
             success: function (data) {
-                
+                console.log(data);
             }
         });
     });
